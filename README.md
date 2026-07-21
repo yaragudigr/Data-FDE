@@ -313,12 +313,3 @@ Meltano
 
 ---
 
-# Author
-
-Enterprise Data Platform Architecture Review
-
-Designed for modern Lakehouse platforms with AI-ready architecture, governance, scalability, and long-term operational excellence.
-
----
-
-⭐ If you find this repository useful, consider giving it a Star.
