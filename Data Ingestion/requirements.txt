@@ -1,0 +1,16 @@
+# Core dependencies
+requests>=2.28.0
+
+# Database connectors (optional)
+databricks-sql-connector>=2.9.0; extra == 'databricks'
+psycopg2-binary>=2.9.0; extra == 'postgres'
+mysql-connector-python>=8.0.0; extra == 'mysql'
+
+# Cloud storage connectors (optional)
+boto3>=1.26.0; extra == 's3'
+azure-storage-blob>=12.0.0; extra == 'azure'
+google-cloud-storage>=2.0.0; extra == 'gcs'
+databricks-sdk>=0.12.0; extra == 'dbfs'
+
+# All connectors
+# Install with: pip install -r requirements.txt -e .[all]
